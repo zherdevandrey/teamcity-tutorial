@@ -16,7 +16,7 @@ public class TeamcityTutorialApplication {
     @GetMapping
     public ResponseEntity<Map<String, String>> response(){
         HashMap<String, String> response = new HashMap<>();
-        response.put("message", "HELLO WORLD");
+        response.put("message", "HELLO WORLD!!!");
         return ResponseEntity.ok(response);
     }
 
